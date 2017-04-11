@@ -27,6 +27,14 @@ main {
     color: #d9534f; /* Bootstrap "danger" red */
 }
 
+.bad {
+    background-color: #d9534f;
+}
+
+.accept {
+    background-color: blue;
+}
+
 /* A chip to display a letter or a wordSubmission */
 .tag-lg {
     margin-right: 2%;
@@ -36,7 +44,10 @@ main {
 
 /* A smaller chip to display the score of a letter or word */
 .tag-sm {
-    font-size: 14px;
+    font-size: 16px;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    font-weight: bold;
     margin-left: 0.4em;
 }
 
